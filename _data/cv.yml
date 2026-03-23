@@ -78,20 +78,4 @@ cv:
           - Chinese
           - English
 
-    Publications:
-      - title: Optimal Rates of Kernel Ridge Regression under Source Condition in Large Dimensions
-        publisher: Journal of Machine Learning Research
-        date: 2025
-        url: http://jmlr.org/papers/v26/23-1679.html
-      - title: On the Impacts of the Random Initialization in the Neural Tangent Kernel Theory
-        publisher: NeurIPS 2024
-        date: 2024
-        url: https://openreview.net/forum?id=ni3Ud2BV3G
-      - title: Kernel Interpolation Generalizes Poorly
-        publisher: Biometrika
-        date: 2024
-        url: https://academic.oup.com/biomet/article-abstract/111/2/715/7238206
-      - title: Improving Adaptivity via Over-Parameterization in Sequence Models
-        publisher: NeurIPS 2024
-        date: 2024
-        url: https://openreview.net/forum?id=UfLH4T676K
+    Publications: []

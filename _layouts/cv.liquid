@@ -3,6 +3,12 @@ layout: default
 ---
 {% assign current_lang = page.lang | default: site.lang %}
 {% assign t = site.data.i18n[current_lang] %}
+{% assign publications_url = '/publications/' %}
+{% for site_page in site.pages %}
+  {% if site_page.nav_key == 'publications' and site_page.lang == current_lang %}
+    {% assign publications_url = site_page.permalink | default: site_page.url %}
+  {% endif %}
+{% endfor %}
 {% comment %}
   Unified CV layout that handles both RenderCV (YAML) and JSONResume (JSON) formats
   - If page.cv_format is set, it determines which format to render:
@@ -166,8 +172,15 @@ layout: default
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
               {% elsif section_title == 'Publications' %}
-                {% assign entries = section_entries %}
-                {% include cv/publications.liquid %}
+                {% if section_entries and section_entries.size > 0 %}
+                  {% assign entries = section_entries %}
+                  {% include cv/publications.liquid %}
+                {% else %}
+                  <p>
+                    {{ t.cv.publications_link_text | default: 'See the full publication list on the' }}
+                    <a href="{{ publications_url | relative_url }}">{{ t.cv.publications_link_label | default: 'publications page' }}</a>.
+                  </p>
+                {% endif %}
               {% elsif section_title == 'Skills' %}
                 {% assign entries = section_entries %}
                 {% include cv/skills.liquid %}

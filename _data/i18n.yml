@@ -36,6 +36,8 @@ zh:
     experience: 经历
     no_data: 暂无简历数据。请配置 RenderCV (cv.yml) 或 JSONResume (resume.json) 数据。
     present: 至今
+    publications_link_text: 完整论文列表请见
+    publications_link_label: 论文页面
     sections:
       Education: 教育经历
       Awards: 奖励
@@ -88,6 +90,8 @@ en:
     experience: Experience
     no_data: No CV data found. Please configure either RenderCV (cv.yml) or JSONResume (resume.json) data.
     present: Present
+    publications_link_text: See the full publication list on the
+    publications_link_label: publications page
     sections:
       Education: Education
       Awards: Awards
