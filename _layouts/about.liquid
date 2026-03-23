@@ -80,6 +80,20 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    {% if page.extra_sections %}
+      {% for section in page.extra_sections %}
+        {% assign section_content = section.content | default: '' | strip %}
+        {% if section.title or section_content != '' %}
+          <h2>{{ section.title }}</h2>
+          {% if section_content != '' %}
+            <div class="clearfix">
+              {{ section.content | markdownify }}
+            </div>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">

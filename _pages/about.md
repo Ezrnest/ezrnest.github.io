@@ -28,6 +28,11 @@ selected_papers_keys:
   - li2025_DiagonalOverparameterization
   - li2024_GeneralizationError
   - li2023_SaturationEffect
+extra_sections:
+  - title: 杂项
+    content: |
+      - 开源 LaTeX 插件 [TeXiFy-IDEA](https://github.com/Hannah-Sten/TeXiFy-IDEA) 的贡献者。
+      - 清华大学学生好读书协会会长（2022-2023年度）。
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -47,3 +52,9 @@ latest_posts:
 我主要的研究方向为深度学习理论，尤其关注特征学习、神经切线核理论、核方法，我也在近期研究差分隐私算法的统计保证。
 
 这里整理了我的论文、简历和教学信息。你可以通过邮箱 [liyc22@mails.tsinghua.edu.cn](mailto:liyc22@mails.tsinghua.edu.cn) 与我联系，也可以访问我的 [Google Scholar 页面](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en)。
+
+## 教育背景
+
+- `2022 至今`：统计学博士生，清华大学统计与数据科学系，导师为林乾。
+- `2025.6–2025.12`：访问学生，宾夕法尼亚大学沃顿商学院统计系，合作导师为 Tony Cai 教授。
+- `2018–2022`：理学学士，清华大学数学科学系，数学与应用数学专业；辅修数据科学；获北京市优秀毕业生（3/111）。
