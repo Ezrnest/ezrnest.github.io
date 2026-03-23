@@ -16,15 +16,15 @@ cv:
         studyType: 博士
         start_date: 2022
         highlights:
-          - 导师：林乾教授。
+          - "导师：林乾教授。"
       - institution: 宾夕法尼亚大学沃顿商学院
         location: 美国宾夕法尼亚州费城
         area: 统计与数据科学
         studyType: 访问学生
-        start_date: 2025
-        end_date: 2025
+        start_date: 2025.6
+        end_date: 2025.12
         highlights:
-          - 合作导师：Tony Cai 教授。
+          - "合作导师：Tony Cai 教授。"
       - institution: 清华大学
         location: 中国北京
         area: 数学与应用数学；辅修数据科学与技术
@@ -35,12 +35,21 @@ cv:
           - 北京市优秀毕业生（3/111）。
 
     Honors and Awards:
-      - title: 惠妍英才奖学金（二等）
-        awarder: 清华大学
+      - title: 国家奖学金
+        awarder: 中华人民共和国教育部
         date: 2025
-      - title: 清华之友-昆华英才奖学金（一等）
+      - title: 北大-清华统计论坛优秀海报奖
+        awarder: 北大-清华统计论坛
+        date: 2025
+      - title: 惠妍英才奖学金
         awarder: 清华大学
         date: 2024
+      - title: 清华之友-昆华英才奖学金
+        awarder: 清华大学
+        date: 2023
+      - title: 北大-清华统计论坛优秀海报奖
+        awarder: 北大-清华统计论坛
+        date: 2023
       - title: 优秀助教奖学金
         awarder: 清华大学
         date: 2023

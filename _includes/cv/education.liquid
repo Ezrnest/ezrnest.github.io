@@ -18,10 +18,22 @@
           {% endcapture %}
 
           {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
-            {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: include.present_label | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
+            {% comment %} Show year for ISO dates, but preserve custom strings like "2025.6" verbatim {% endcomment %}
+            {% assign startDate = start_date %}
+            {% assign endDate = end_date | default: include.present_label | default: 'Present' %}
+            {% assign start_parts = start_date | split: '-' %}
+            {% assign end_parts = end_date | split: '-' %}
+            {% if start_parts.size == 3 %}
+              {% assign startDate = start_parts | first %}
+            {% endif %}
+            {% if end_parts.size == 3 %}
+              {% assign endDate = end_parts | first %}
+            {% endif %}
+            {% assign separator = ' - ' %}
+            {% if start_date contains '.' or end_date contains '.' %}
+              {% assign separator = '～' %}
+            {% endif %}
+            {% assign date = startDate | append: separator | append: endDate %}
           {% else %}
             {% assign date = null %}
           {% endif %}

@@ -17,15 +17,15 @@ cv:
         start_date: 2022
         end_date: Present
         highlights:
-          - Advisor: Professor Qian Lin.
+          - "Advisor: Professor Qian Lin."
       - institution: University of Pennsylvania, The Wharton School
         location: Philadelphia, PA, USA
         area: Statistics and Data Science
         studyType: Visiting Student
-        start_date: 2025
-        end_date: 2025
+        start_date: 2025.6
+        end_date: 2025.12
         highlights:
-          - Host: Professor T. Tony Cai.
+          - "Host: Professor T. Tony Cai."
       - institution: Tsinghua University
         location: Beijing, China
         area: Pure and Applied Mathematics; Minor in Data Science and Technology
@@ -36,12 +36,21 @@ cv:
           - Outstanding Graduate (top 3/111).
 
     Honors and Awards:
-      - title: Huiyan Talent Scholarship (Second Prize)
-        awarder: Tsinghua University
+      - title: National Scholarship
+        awarder: Ministry of Education of China
         date: 2025
-      - title: Tsinghua Alumni-Kunhua Talent Scholarship (First Prize)
+      - title: Outstanding Poster Award, Peking University-Tsinghua University Statistics Forum
+        awarder: Peking University-Tsinghua University Statistics Forum
+        date: 2025
+      - title: Huiyan Talent Scholarship
         awarder: Tsinghua University
         date: 2024
+      - title: Tsinghua Alumni-Kunhua Talent Scholarship
+        awarder: Tsinghua University
+        date: 2023
+      - title: Outstanding Poster Award, Peking University-Tsinghua University Statistics Forum
+        awarder: Peking University-Tsinghua University Statistics Forum
+        date: 2023
       - title: Excellent Teaching Assistant Scholarship
         awarder: Tsinghua University
         date: 2023
