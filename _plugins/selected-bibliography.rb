@@ -16,7 +16,7 @@ module Jekyll
         page['cited'] = keys
 
         Jekyll::Scholar::BibliographyTag
-          .new('bibliography', DEFAULT_ARGS, Liquid::ParseContext.new)
+          .send(:new, 'bibliography', DEFAULT_ARGS, Liquid::ParseContext.new)
           .render(context)
       ensure
         page['cited'] = original_page_cited if page
