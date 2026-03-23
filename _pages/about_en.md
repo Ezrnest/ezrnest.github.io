@@ -52,7 +52,7 @@ I will graduate in the summer of 2026 and join the School of Statistics at East 
 
 My main research area is deep learning theory, with a particular focus on feature learning, neural tangent kernel theory, and kernel methods. More recently, I have also been working on statistical guarantees for differentially private algorithms.
 
-This site collects my publications, CV, and teaching information. You can reach me at [liyc22@mails.tsinghua.edu.cn](mailto:liyc22@mails.tsinghua.edu.cn) or visit my [Google Scholar page](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en).
+If you are interested in my research, feel free to contact me by [email](mailto:liyc22@mails.tsinghua.edu.cn), or visit my [Google Scholar page](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en).
 
 ## Education
 

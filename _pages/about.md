@@ -51,7 +51,7 @@ latest_posts:
 
 我主要的研究方向为深度学习理论，尤其关注特征学习、神经切线核理论、核方法，我也在近期研究差分隐私算法的统计保证。
 
-这里整理了我的论文、简历和教学信息。你可以通过邮箱 [liyc22@mails.tsinghua.edu.cn](mailto:liyc22@mails.tsinghua.edu.cn) 与我联系，也可以访问我的 [Google Scholar 页面](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en)。
+如果您对于我的研究感兴趣，欢迎通过[邮箱](mailto:liyc22@mails.tsinghua.edu.cn)与我联系，也可以访问我的[Google Scholar 页面](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en)。
 
 ## 教育背景
 
