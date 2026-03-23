@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-教学",
           title: "教学",
-          description: "讲座与助教经历。",
+          description: "教学经历。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
