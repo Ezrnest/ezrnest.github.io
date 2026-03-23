@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ezrnest.github.io/sitemap.xml
