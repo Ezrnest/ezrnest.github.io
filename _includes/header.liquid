@@ -3,9 +3,13 @@
   {% assign t = site.data.i18n[current_lang] %}
   {% assign home_url = '/' %}
   {% assign about_title = t.nav.home | default: 'about' %}
+  {% assign home_display_name = nil %}
   {% for nav_page in site.pages %}
     {% if nav_page.home == true and nav_page.lang == current_lang %}
       {% assign home_url = nav_page.permalink %}
+      {% if nav_page.header_name %}
+        {% assign home_display_name = nav_page.header_name %}
+      {% endif %}
       {% if nav_page.nav_key and t.nav and t.nav[nav_page.nav_key] %}
         {% assign about_title = t.nav[nav_page.nav_key] %}
       {% elsif nav_page.title %}
@@ -19,7 +23,9 @@
     <div class="container">
       {% if page.permalink != home_url %}
         <a class="navbar-brand title font-weight-lighter" href="{{ home_url | relative_url }}">
-          {% if site.title == 'blank' %}
+          {% if home_display_name %}
+            {{- home_display_name -}}
+          {% elsif site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
                 {{- site.first_name -}}

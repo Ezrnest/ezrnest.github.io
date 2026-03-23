@@ -17,6 +17,10 @@
 {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
 {% assign current_lang = page.lang | default: site.lang %}
 {% assign t = site.data.i18n[current_lang] %}
+{% assign site_title_name = author_name %}
+{% if page.home and page.header_name %}
+  {% assign site_title_name = page.header_name %}
+{% endif %}
 
 <!-- Standard metadata -->
 <meta charset="utf-8">
@@ -24,7 +28,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
   {% if site.title == 'blank' %}
-    {% capture title %}{{ author_name }}{% endcapture %}
+    {% capture title %}{{ site_title_name }}{% endcapture %}
   {% else %}
     {% capture title %}{{ site.title }}{% endcapture %}
   {% endif %}
@@ -40,7 +44,7 @@
     {{ title }}
   {% endif %}
 </title>
-<meta name="author" content="{{ author_name }}">
+<meta name="author" content="{{ site_title_name }}">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">

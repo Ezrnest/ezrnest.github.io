@@ -9,6 +9,7 @@ alternate_permalink: /en/
 alternate_lang_label: EN
 subtitle: 统计与机器学习理论
 description: 李易诚的学术主页，研究方向包括统计学与机器学习理论、核方法、特征学习与差分隐私。
+header_name: 李易诚
 
 profile:
   align: right

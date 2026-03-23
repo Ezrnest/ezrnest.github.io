@@ -9,6 +9,7 @@ alternate_permalink: /
 alternate_lang_label: 中文
 subtitle: Statistics and Machine Learning Theory
 description: Academic homepage of Yicheng Li, with research interests in statistics, machine learning theory, kernel methods, feature learning, and differential privacy.
+header_name: Yicheng Li
 
 profile:
   align: right
