@@ -34,7 +34,6 @@ extra_sections:
       - 开源 LaTeX 插件 [TeXiFy-IDEA](https://github.com/Hannah-Sten/TeXiFy-IDEA) 的贡献者。
       - 清华大学学生好读书协会会长（2022-2023年度）。
 social: true # includes social icons at the bottom of the page
-
 announcements:
   enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items

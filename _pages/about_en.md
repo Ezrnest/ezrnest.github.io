@@ -34,7 +34,6 @@ extra_sections:
       - Contributor to [TeXiFy-IDEA](https://github.com/Hannah-Sten/TeXiFy-IDEA), an open-source LaTeX plugin for the IntelliJ Platform.
       - President of the Tsinghua University Student Reading Club (2022–2023).
 social: true
-
 announcements:
   enabled: false
   scrollable: true

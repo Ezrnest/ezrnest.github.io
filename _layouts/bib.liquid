@@ -88,7 +88,8 @@
           <em>
             {{- author.first }}
             {{ author_last_html -}}
-          </em>{% if entry.my_note %} ({{ entry.my_note | escape }}){% endif %}
+          </em>
+          {%- if entry.my_note %} ({{ entry.my_note | escape }}){% endif %}
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
