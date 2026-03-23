@@ -54,6 +54,7 @@ Beyond standard BibTeX fields, al-folio supports custom keywords for rich public
 - **preview:** URL to preview image (`preview: /assets/img/papers/paper-preview.jpg`)
 - **selected:** Boolean to feature on publications page (`selected: true`)
 - **slides:** URL to presentation slides (`slides: /assets/slides/2023.pdf`)
+- **url:** Standard BibTeX URL field; rendered as a `URL` button when present and not duplicated by `html` or `website`
 
 ### Example Entry with Custom Keywords
 

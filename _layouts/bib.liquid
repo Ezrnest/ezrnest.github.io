@@ -88,7 +88,7 @@
           <em>
             {{- author.first }}
             {{ author_last_html -}}
-          </em>
+          </em>{% if entry.my_note %} ({{ entry.my_note | escape }}){% endif %}
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
@@ -136,6 +136,7 @@
           {{- more_authors_hide -}}
         </span>
       {% endif %}
+      {% if entry.author_note %} ({{ entry.author_note | escape }}){% endif %}
       {% if entry.annotation %}
         <i
           class="fa-solid fa-circle-info ml-1"
@@ -151,12 +152,22 @@
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+    {% assign arxiv_identifier = null %}
+    {% if entry.number and entry.number contains 'arXiv:' %}
+      {% assign arxiv_identifier = entry.number %}
+    {% elsif entry.arxiv %}
+      {% assign arxiv_identifier = entry.arxiv | prepend: 'arXiv:' %}
+    {% elsif entry.eprint and (entry.archiveprefix == 'arXiv' or entry.publisher == 'arXiv') %}
+      {% assign arxiv_identifier = entry.eprint | prepend: 'arXiv:' %}
+    {% endif %}
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+    {% elsif arxiv_identifier %}
+      {% capture entrytype %}<em>arXiv preprint</em>, {{ arxiv_identifier }}{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
@@ -183,9 +194,11 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% if entry.note %}
+      <div class="periodical">
+        {{ entry.note | strip }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
@@ -257,6 +270,13 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+      {% endif %}
+      {% if entry.url and entry.url != entry.html and entry.url != entry.website %}
+        {% if entry.url contains '://' %}
+          <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
+        {% else %}
+          <a href="{{ entry.url | relative_url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
+        {% endif %}
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
