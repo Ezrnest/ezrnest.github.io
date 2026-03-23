@@ -63,6 +63,7 @@ When modifying `_config.yml`, these **must be updated together**:
 
 - **Git & Commits:** For commit message format and Git practices, see [.github/GIT_WORKFLOW.md](.github/GIT_WORKFLOW.md).
 - **Code-Specific Instructions:** Consult the relevant instruction file for your code type.
+- **Bilingual Content Sync:** When a section has paired Chinese and English sources (for example [`_data/cv_zh.yml`](_data/cv_zh.yml) and [`_data/cv.yml`](_data/cv.yml), or [`_pages/cv.md`](_pages/cv.md) and [`_pages/cv_en.md`](_pages/cv_en.md)), keep the item structure, ordering, dates, and field coverage aligned across both files unless the user explicitly asks for a language-specific difference. When adding, removing, or renaming entries, update both sides together and preserve a clear Chinese-English correspondence item by item.
 
 | File Type                                     | Instruction File                                                                                |
 | --------------------------------------------- | ----------------------------------------------------------------------------------------------- |
