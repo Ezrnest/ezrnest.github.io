@@ -7,8 +7,8 @@ home: true
 nav_key: home
 alternate_permalink: /
 alternate_lang_label: 中文
-subtitle: Statistics and Machine Learning Theory
-description: Academic homepage of Yicheng Li, with research interests in statistics, machine learning theory, kernel methods, feature learning, and differential privacy.
+subtitle: Deep Learning Theory, Differential Privacy
+description: Academic homepage of Yicheng Li, with research interests in statistics and machine learning theory, kernel methods, feature learning, and differential privacy.
 header_name: Yicheng Li
 
 profile:
@@ -41,8 +41,10 @@ latest_posts:
   limit: 3
 ---
 
-I am Yicheng Li (李易诚), a Ph.D. student in the Department of Statistics and Data Science at Tsinghua University, advised by Professor Qian Lin. I received my B.Sc. in Pure and Applied Mathematics from Tsinghua University and visited the Department of Statistics and Data Science at the Wharton School, University of Pennsylvania, in Fall 2025, hosted by Professor T. Tony Cai.
+I am Yicheng Li (李易诚), a Ph.D. student in the Department of Statistics and Data Science at Tsinghua University, advised by Professor Qian Lin. I received my B.Sc. in Pure and Applied Mathematics from Tsinghua University.
 
-My research lies at the interface of statistics and machine learning theory, with interests in kernel methods, neural tangent kernel theory, feature learning theory, and statistical guarantees for differentially private algorithms.
+I will graduate in the summer of 2026 and join the School of Statistics at East China Normal University as a Young Research Fellow.
 
-This site collects my publications, CV, and teaching information. You can reach me at [liyc22@mails.tsinghua.edu.cn](mailto:liyc22@mails.tsinghua.edu.cn) or visit my [Google Scholar profile](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en).
+My main research area is deep learning theory, with a particular focus on feature learning, neural tangent kernel theory, and kernel methods. More recently, I have also been working on statistical guarantees for differentially private algorithms.
+
+This site collects my publications, CV, and teaching information. You can reach me at [liyc22@mails.tsinghua.edu.cn](mailto:liyc22@mails.tsinghua.edu.cn) or visit my [Google Scholar page](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en).

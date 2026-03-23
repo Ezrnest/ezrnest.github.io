@@ -1,6 +1,10 @@
 <header>
   {% assign current_lang = page.lang | default: site.lang %}
   {% assign t = site.data.i18n[current_lang] %}
+  {% assign localized_site_title = site.title %}
+  {% if current_lang == 'en' and site.title_en %}
+    {% assign localized_site_title = site.title_en %}
+  {% endif %}
   {% assign home_url = '/' %}
   {% assign about_title = t.nav.home | default: 'about' %}
   {% assign home_display_name = null %}
@@ -25,7 +29,7 @@
         <a class="navbar-brand title font-weight-lighter" href="{{ home_url | relative_url }}">
           {% if home_display_name %}
             {{- home_display_name -}}
-          {% elsif site.title == 'blank' %}
+          {% elsif localized_site_title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
                 {{- site.first_name -}}
@@ -38,7 +42,7 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
-            {{- site.title -}}
+            {{- localized_site_title -}}
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}

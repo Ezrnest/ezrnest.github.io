@@ -6,26 +6,25 @@ cv:
   address:
     city: 北京
     countryCode: CN
-  summary: 清华大学统计与数据科学系博士生，研究统计学与机器学习理论，关注核方法、神经切线核理论、特征学习与差分隐私。
+  summary: 清华大学统计与数据科学系博士生，研究深度学习理论，关注特征学习、神经切线核理论、核方法与差分隐私。
 
   sections:
     Education:
-      - institution: 清华大学
+      - institution: 清华大学 统计与数据科学系
         location: 中国北京
         area: 统计学
         studyType: 博士
         start_date: 2022
         highlights:
-          - "导师：林乾教授。"
-      - institution: 宾夕法尼亚大学沃顿商学院
+          - "导师：林乾"
+      - institution: 宾夕法尼亚大学沃顿商学院 统计系
         location: 美国宾夕法尼亚州费城
-        area: 统计与数据科学
         studyType: 访问学生
         start_date: 2025.6
         end_date: 2025.12
         highlights:
-          - "合作导师：Tony Cai 教授。"
-      - institution: 清华大学
+          - "合作导师：Tony Cai 教授"
+      - institution: 清华大学 数学科学系
         location: 中国北京
         area: 数学与应用数学；辅修数据科学与技术
         studyType: 理学学士
@@ -75,10 +74,10 @@ cv:
     Academic Interests:
       - name: 研究方向
         keywords:
+          - 深度学习理论
+          - 神经切线核
+          - 特征学习
           - 核方法
-          - 神经切线核理论
-          - 特征学习理论
-          - 统计机器学习
           - 差分隐私
 
     Skills:

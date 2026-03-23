@@ -3,6 +3,10 @@ layout: default
 ---
 {% assign current_lang = page.lang | default: site.lang %}
 {% assign t = site.data.i18n[current_lang] %}
+{% assign localized_site_title = site.title %}
+{% if current_lang == 'en' and site.title_en %}
+  {% assign localized_site_title = site.title_en %}
+{% endif %}
 {% assign publications_url = '/publications/' %}
 {% for site_page in site.pages %}
   {% if site_page.nav_key == 'publications' and site_page.lang == current_lang %}
@@ -14,11 +18,11 @@ layout: default
     <h1 class="post-title">
       {% if page.header_name %}
         {{ page.header_name }}
-      {% elsif site.title == 'blank' %}
+      {% elsif localized_site_title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
-        {{ site.title }}
+        {{ localized_site_title }}
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>

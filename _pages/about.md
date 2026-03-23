@@ -7,7 +7,7 @@ home: true
 nav_key: home
 alternate_permalink: /en/
 alternate_lang_label: EN
-subtitle: 统计与机器学习理论
+subtitle: 深度学习理论、差分隐私
 description: 李易诚的学术主页，研究方向包括统计学与机器学习理论、核方法、特征学习与差分隐私。
 header_name: 李易诚
 
@@ -41,8 +41,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-我是李易诚，清华大学统计与数据科学系博士生，导师为林乾教授。本科毕业于清华大学数学系，曾于 2025 年秋季在宾夕法尼亚大学沃顿商学院统计与数据科学系访问，合作导师为 Tony Cai 教授。
+我是李易诚，清华大学统计与数据科学系博士生，导师为林乾教授。本科毕业于清华大学数学科学系。
+我将于2026年夏季毕业，入职华东师范大学统计学院，担任青年研究员。
 
-我的研究兴趣位于统计学与机器学习理论的交叉地带，主要包括核方法、神经切线核理论、特征学习理论，以及差分隐私算法的统计保证。
+我主要的研究方向为深度学习理论，尤其关注特征学习、神经切线核理论、核方法，我也在近期研究差分隐私算法的统计保证。
 
 这里整理了我的论文、简历和教学信息。你可以通过邮箱 [liyc22@mails.tsinghua.edu.cn](mailto:liyc22@mails.tsinghua.edu.cn) 与我联系，也可以访问我的 [Google Scholar 页面](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en)。

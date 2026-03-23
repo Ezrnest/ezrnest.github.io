@@ -11,8 +11,10 @@ alternate_permalink: /en/publications/
 alternate_lang_label: EN
 ---
 
-{% include bib_search.liquid %}
+<div>
+  {% include bib_search.liquid %}
 
-<div class="publications">
-{% bibliography %}
+  <div class="publications">
+    {% bibliography %}
+  </div>
 </div>

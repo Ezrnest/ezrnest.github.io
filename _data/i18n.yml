@@ -14,7 +14,7 @@ zh:
   last_updated: 最近更新：
   no_news: 暂无消息。
   no_posts: 暂无文章。
-  contact_note: 清华大学统计与数据科学系。最方便的联系方式是邮件：liyc22@mails.tsinghua.edu.cn。
+  contact_note: liyc22@mails.tsinghua.edu.cn
   nav:
     home: 简介
     publications: 论文
@@ -68,7 +68,7 @@ en:
   last_updated: "Last updated:"
   no_news: No news so far...
   no_posts: No posts so far...
-  contact_note: "Department of Statistics and Data Science, Tsinghua University. The best way to reach me is by email: liyc22@mails.tsinghua.edu.cn."
+  contact_note: liyc22@mails.tsinghua.edu.cn
   nav:
     home: About
     publications: Publications

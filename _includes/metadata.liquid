@@ -17,6 +17,10 @@
 {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
 {% assign current_lang = page.lang | default: site.lang %}
 {% assign t = site.data.i18n[current_lang] %}
+{% assign localized_site_title = site.title %}
+{% if current_lang == 'en' and site.title_en %}
+  {% assign localized_site_title = site.title_en %}
+{% endif %}
 {% assign site_title_name = author_name %}
 {% if page.home and page.header_name %}
   {% assign site_title_name = page.header_name %}
@@ -27,10 +31,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
-  {% if site.title == 'blank' %}
+  {% if localized_site_title == 'blank' %}
     {% capture title %}{{ site_title_name }}{% endcapture %}
   {% else %}
-    {% capture title %}{{ site.title }}{% endcapture %}
+    {% capture title %}{{ localized_site_title }}{% endcapture %}
   {% endif %}
   {% if page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}
@@ -242,7 +246,7 @@
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
         "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
         "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ localized_site_title }}{% endif %}",
         {% if sameaslinks != blank %}
         "sameAs": {{ sameaslinks | jsonify }},
         {% endif %}

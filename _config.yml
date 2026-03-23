@@ -2,7 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: "李易诚的个人主页"
+title_en: "Yicheng Li's Homepage"
 first_name: Yicheng
 middle_name:
 last_name: Li

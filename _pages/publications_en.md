@@ -11,8 +11,10 @@ alternate_permalink: /publications/
 alternate_lang_label: 中文
 ---
 
-{% include bib_search.liquid %}
+<div>
+  {% include bib_search.liquid %}
 
-<div class="publications">
-{% bibliography %}
+  <div class="publications">
+    {% bibliography %}
+  </div>
 </div>

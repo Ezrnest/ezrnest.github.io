@@ -6,27 +6,26 @@ cv:
   address:
     city: Beijing
     countryCode: CN
-  summary: Ph.D. student at Tsinghua University working on the theory of statistics and machine learning, with a focus on kernel methods, neural tangent kernel theory, feature learning, and differential privacy.
+  summary: Ph.D. student in the Department of Statistics and Data Science at Tsinghua University, working on deep learning theory, with a focus on feature learning, neural tangent kernels, kernel methods, and differential privacy.
 
   sections:
     Education:
-      - institution: Tsinghua University
+      - institution: Tsinghua University, Department of Statistics and Data Science
         location: Beijing, China
         area: Statistics
         studyType: Ph.D.
         start_date: 2022
         end_date: Present
         highlights:
-          - "Advisor: Professor Qian Lin."
-      - institution: University of Pennsylvania, The Wharton School
+          - "Advisor: Qian Lin"
+      - institution: University of Pennsylvania, The Wharton School, Department of Statistics
         location: Philadelphia, PA, USA
-        area: Statistics and Data Science
         studyType: Visiting Student
         start_date: 2025.6
         end_date: 2025.12
         highlights:
-          - "Host: Professor T. Tony Cai."
-      - institution: Tsinghua University
+          - "Host: Tony Cai"
+      - institution: Tsinghua University, Department of Mathematical Sciences
         location: Beijing, China
         area: Pure and Applied Mathematics; Minor in Data Science and Technology
         studyType: B.Sc.
@@ -76,10 +75,10 @@ cv:
     Academic Interests:
       - name: Research
         keywords:
+          - deep learning theory
+          - neural tangent kernels
+          - feature learning
           - kernel methods
-          - neural tangent kernel theory
-          - feature learning theory
-          - statistical machine learning
           - differential privacy
 
     Skills:
