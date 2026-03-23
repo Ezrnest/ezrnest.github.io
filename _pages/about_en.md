@@ -6,16 +6,19 @@ lang: en
 home: true
 alternate_permalink: /
 alternate_lang_label: 中文
-subtitle: Academic homepage
+subtitle: Statistics and Machine Learning Theory
 
 profile:
   align: right
+  image: prof_pic.jpg
+  image_circular: false
   more_info: >
     <p>李易诚 | Yicheng Li</p>
+    <p>Ph.D. Student, Tsinghua University</p>
     <p><a href="mailto:liyc22@mails.tsinghua.edu.cn">liyc22@mails.tsinghua.edu.cn</a></p>
     <p><a href="https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
 
-selected_papers: false
+selected_papers: true
 social: true
 
 announcements:
@@ -29,8 +32,8 @@ latest_posts:
   limit: 3
 ---
 
-I am Yicheng Li (李易诚). Welcome to my academic homepage.
+I am Yicheng Li (李易诚), a Ph.D. student in the Department of Statistics and Data Science at Tsinghua University, advised by Professor Qian Lin. I received my B.Sc. in Pure and Applied Mathematics from Tsinghua University and visited the Department of Statistics and Data Science at the Wharton School, University of Pennsylvania, in Fall 2025, hosted by Professor T. Tony Cai.
 
-This site will host my research profile, publications, and academic updates. I will continue to add more information here.
+My research lies at the interface of statistics and machine learning theory, with interests in kernel methods, neural tangent kernel theory, feature learning theory, and statistical guarantees for differentially private algorithms.
 
-You can contact me by email at [liyc22@mails.tsinghua.edu.cn](mailto:liyc22@mails.tsinghua.edu.cn), or visit my [Google Scholar profile](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en).
+This site collects my publications, CV, and teaching information. You can reach me at [liyc22@mails.tsinghua.edu.cn](mailto:liyc22@mails.tsinghua.edu.cn) or visit my [Google Scholar profile](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en).

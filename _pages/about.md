@@ -6,16 +6,19 @@ lang: zh
 home: true
 alternate_permalink: /en/
 alternate_lang_label: EN
-subtitle: 学术主页
+subtitle: 统计与机器学习理论
 
 profile:
   align: right
+  image: prof_pic.jpg
+  image_circular: false
   more_info: >
     <p>李易诚 | Yicheng Li</p>
+    <p>清华大学统计与数据科学系博士生</p>
     <p><a href="mailto:liyc22@mails.tsinghua.edu.cn">liyc22@mails.tsinghua.edu.cn</a></p>
     <p><a href="https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -29,8 +32,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-我是李易诚。欢迎访问我的学术主页。
+我是李易诚，清华大学统计与数据科学系博士生，导师为林乾教授。本科毕业于清华大学数学系，曾于 2025 年秋季在宾夕法尼亚大学沃顿商学院统计与数据科学系访问，合作导师为 Tony Cai 教授。
 
-这个网站将用于展示我的研究方向、论文发表和学术动态，后续我会继续补充内容。
+我的研究兴趣位于统计学与机器学习理论的交叉地带，主要包括核方法、神经切线核理论、特征学习理论，以及差分隐私算法的统计保证。
 
-你可以通过邮箱 [liyc22@mails.tsinghua.edu.cn](mailto:liyc22@mails.tsinghua.edu.cn) 联系我，也可以访问我的 [Google Scholar 页面](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en)。
+这里整理了我的论文、简历和教学信息。你可以通过邮箱 [liyc22@mails.tsinghua.edu.cn](mailto:liyc22@mails.tsinghua.edu.cn) 与我联系，也可以访问我的 [Google Scholar 页面](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en)。

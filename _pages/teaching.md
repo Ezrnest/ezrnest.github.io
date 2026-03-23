@@ -1,15 +1,16 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
-nav: false
-nav_order: 6
-calendar: true
+title: Teaching
+description: Seminar and teaching assistant experience.
+nav: true
+nav_order: 4
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Teaching Activities
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+- **2024**: Main speaker for the student research training seminar on kernel methods at Tsinghua University.
+- **2023**: Teaching assistant for *Multivariate Statistical Analysis* and *Elementary Probability Theory* at Tsinghua University.
+- **2023**: Received the Excellent Teaching Assistant Scholarship from Tsinghua University.
 
-{% include courses.liquid %}
+I enjoy teaching mathematical statistics and learning theory, especially when it helps connect rigorous analysis with modern machine learning practice.
