@@ -3,7 +3,7 @@
   {% assign t = site.data.i18n[current_lang] %}
   {% assign home_url = '/' %}
   {% assign about_title = t.nav.home | default: 'about' %}
-  {% assign home_display_name = nil %}
+  {% assign home_display_name = null %}
   {% for nav_page in site.pages %}
     {% if nav_page.home == true and nav_page.lang == current_lang %}
       {% assign home_url = nav_page.permalink %}

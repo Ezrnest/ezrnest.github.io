@@ -62,7 +62,7 @@ Here we will give you some tips on how to customize the website. One important t
     - [How it works](#how-it-works)
     - [Configuration](#configuration-1)
     - [Disable related posts for a specific post](#disable-related-posts-for-a-specific-post)
-    - [Additional configuration in _config.yml](#additional-configuration-in-_configyml)
+    - [Additional configuration in \_config.yml](#additional-configuration-in-_configyml)
   - [Managing publication display](#managing-publication-display)
   - [Adding a Google Calendar](#adding-a-google-calendar)
     - [Basic usage](#basic-usage)
@@ -359,7 +359,7 @@ Change `rendercv` to `jsonresume` to display the JSONResume format instead.
 
 ### Automatic PDF Generation (RenderCV only)
 
-If you use the RenderCV format, a GitHub Actions workflow can automatically generate a PDF version of your CV whenever you push changes to [`_data/cv.yml`](_data/cv.yml). The PDF is saved to `assets/rendercv/rendercv_output/`.
+If you use the RenderCV format, an optional GitHub Actions workflow can generate a PDF version of your CV and save it to `assets/rendercv/rendercv_output/`.
 
 **To link the auto-generated PDF to your CV page:**
 
@@ -375,9 +375,9 @@ cv_format: rendercv
 
 This will add a download button on your CV page that links to the PDF. (The exact filename depends on your RenderCV settings—check the output directory after the first workflow run to see the generated PDF name.)
 
-**To disable automatic PDF generation:**
+**To disable or customize PDF generation:**
 
-Delete or comment out the [`.github/workflows/render-cv.yml`](.github/workflows/render-cv.yml) workflow file.
+Edit the [`.github/workflows/render-cv.yml`](.github/workflows/render-cv.yml) workflow file. By default, it is available for manual runs and reusable workflow calls.
 
 ## Modifying the user and repository information
 
