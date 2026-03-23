@@ -25,8 +25,8 @@ selected_papers: true
 selected_papers_keys:
   - cai2026_MinimaxAdaptiveCovariance
   - li2025_SeveralSupporting
-  - li2024_GeneralizationError
   - li2025_DiagonalOverparameterization
+  - li2024_GeneralizationError
   - li2023_SaturationEffect
 social: true # includes social icons at the bottom of the page
 
