@@ -331,9 +331,15 @@
 {% endif %}
 
 {% if site.search_enabled %}
+  {% assign current_lang = page.lang | default: site.lang %}
+  {% assign t = site.data.i18n[current_lang] %}
   <!-- Search -->
   <script type="module" src="{{ '/assets/js/search/ninja-keys.min.js' | relative_url | bust_file_cache }}"></script>
-  <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="Type to start searching"></ninja-keys>
+  <ninja-keys
+    hideBreadcrumbs
+    noAutoLoadMdIcons
+    placeholder="{{ t.search_placeholder | default: 'Type to start searching' }}"
+  ></ninja-keys>
   <script src="{{ '/assets/js/search-setup.js' | relative_url | bust_file_cache }}"></script>
   <script src="{{ '/assets/js/search-data.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}"></script>

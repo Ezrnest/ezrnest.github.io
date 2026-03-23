@@ -4,9 +4,11 @@ title: About
 permalink: /en/
 lang: en
 home: true
+nav_key: home
 alternate_permalink: /
 alternate_lang_label: 中文
 subtitle: Statistics and Machine Learning Theory
+description: Academic homepage of Yicheng Li, with research interests in statistics, machine learning theory, kernel methods, feature learning, and differential privacy.
 
 profile:
   align: right
@@ -19,6 +21,12 @@ profile:
     <p><a href="https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
 
 selected_papers: true
+selected_papers_keys:
+  - cai2026_MinimaxAdaptiveCovariance
+  - li2025_SeveralSupporting
+  - li2024_GeneralizationError
+  - li2025_DiagonalOverparameterization
+  - li2023_SaturationEffect
 social: true
 
 announcements:

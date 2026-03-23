@@ -1,9 +1,103 @@
 zh:
+  locale: zh_CN
   toggle_navigation: 切换导航
   current: 当前页面
   search: 搜索
+  search_placeholder: 输入关键词开始搜索
+  bib_search_placeholder: 输入关键词筛选论文
+  change_theme: 切换主题
+  date_format: "%Y-%m-%d"
+  footer_text: >
+    由 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> 和
+    <a href="https://github.com/alshedivat/al-folio">al-folio</a> 驱动，
+    托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>。
+  last_updated: 最近更新：
+  no_news: 暂无消息。
+  no_posts: 暂无文章。
+  contact_note: 清华大学统计与数据科学系。最方便的联系方式是邮件：liyc22@mails.tsinghua.edu.cn。
+  nav:
+    home: 简介
+    publications: 论文
+    cv: 简历
+    teaching: 教学
+  home:
+    news: 消息
+    latest_posts: 最新文章
+    selected_publications: 精选论文
+  cv:
+    contact_information: 联系方式
+    name: 姓名
+    professional_title: 身份
+    email: 邮箱
+    phone: 电话
+    location: 地点
+    website: 主页
+    professional_summary: 简介
+    experience: 经历
+    no_data: 暂无简历数据。请配置 RenderCV (cv.yml) 或 JSONResume (resume.json) 数据。
+    present: 至今
+    sections:
+      Education: 教育经历
+      Awards: 奖励
+      Honors and Awards: 荣誉与奖励
+      Publications: 论文
+      Skills: 技能
+      Languages: 语言
+      Interests: 兴趣
+      Academic Interests: 学术兴趣
+      Certificates: 证书
+      Projects: 项目
+      Open Source Projects: 开源项目
+      References: 推荐人
 
 en:
+  locale: en_US
   toggle_navigation: Toggle navigation
   current: current
   search: Search
+  search_placeholder: Type to start searching
+  bib_search_placeholder: Type to filter publications
+  change_theme: Change theme
+  date_format: "%b %d, %Y"
+  footer_text: >
+    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+    <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Hosted by
+    <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  last_updated: "Last updated:"
+  no_news: No news so far...
+  no_posts: No posts so far...
+  contact_note: "Department of Statistics and Data Science, Tsinghua University. The best way to reach me is by email: liyc22@mails.tsinghua.edu.cn."
+  nav:
+    home: About
+    publications: Publications
+    cv: CV
+    teaching: Teaching
+  home:
+    news: News
+    latest_posts: Latest posts
+    selected_publications: Selected publications
+  cv:
+    contact_information: Contact Information
+    name: Name
+    professional_title: Professional Title
+    email: Email
+    phone: Phone
+    location: Location
+    website: Website
+    professional_summary: Professional Summary
+    experience: Experience
+    no_data: No CV data found. Please configure either RenderCV (cv.yml) or JSONResume (resume.json) data.
+    present: Present
+    sections:
+      Education: Education
+      Awards: Awards
+      Honors and Awards: Honors and Awards
+      Publications: Publications
+      Skills: Skills
+      Languages: Languages
+      Interests: Interests
+      Academic Interests: Academic Interests
+      Certificates: Certificates
+      Projects: Projects
+      Open Source Projects: Open Source Projects
+      References: References

@@ -2,11 +2,15 @@
   {% assign current_lang = page.lang | default: site.lang %}
   {% assign t = site.data.i18n[current_lang] %}
   {% assign home_url = '/' %}
-  {% assign about_title = 'about' %}
+  {% assign about_title = t.nav.home | default: 'about' %}
   {% for nav_page in site.pages %}
     {% if nav_page.home == true and nav_page.lang == current_lang %}
       {% assign home_url = nav_page.permalink %}
-      {% assign about_title = nav_page.title %}
+      {% if nav_page.nav_key and t.nav and t.nav[nav_page.nav_key] %}
+        {% assign about_title = t.nav[nav_page.nav_key] %}
+      {% elsif nav_page.title %}
+        {% assign about_title = nav_page.title %}
+      {% endif %}
     {% endif %}
   {% endfor %}
 
@@ -67,6 +71,9 @@
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
+              {% if p.lang and p.lang != current_lang %}
+                {% continue %}
+              {% endif %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -84,9 +91,13 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    {{- p.title }}
+                    {% assign nav_label = p.title %}
+                    {% if p.nav_key and t.nav and t.nav[p.nav_key] %}
+                      {% assign nav_label = t.nav[p.nav_key] %}
+                    {% endif %}
+                    {{- nav_label }}
                     {% if page.title == p.title or has_active_child %}
-                      <span class="sr-only">(current)</span>
+                      <span class="sr-only">({{ t.current }})</span>
                     {% endif %}
                   </a>
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -114,10 +125,14 @@
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
+                  {% assign nav_label = p.title %}
+                  {% if p.nav_key and t.nav and t.nav[p.nav_key] %}
+                    {% assign nav_label = t.nav[p.nav_key] %}
+                  {% endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
+                    {{- nav_label }}
                     {% if page.url contains p.url %}
-                      <span class="sr-only">(current)</span>
+                      <span class="sr-only">({{ t.current }})</span>
                     {% endif %}
                   </a>
                 </li>
@@ -140,7 +155,7 @@
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
+              <button id="light-toggle" title="{{ t.change_theme | default: 'Change theme' }}">
                 <i class="fa-half-sun-moon" id="light-toggle-system"></i>
                 <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
                 <i class="fa-solid fa-sun" id="light-toggle-light"></i>

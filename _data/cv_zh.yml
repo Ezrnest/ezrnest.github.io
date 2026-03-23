@@ -1,0 +1,96 @@
+cv:
+  name: 李易诚
+  label: 统计学博士生
+  email: liyc22@mails.tsinghua.edu.cn
+  website: https://ezrnest.github.io
+  address:
+    city: 北京
+    countryCode: CN
+  summary: 清华大学统计与数据科学系博士生，研究统计学与机器学习理论，关注核方法、神经切线核理论、特征学习与差分隐私。
+
+  sections:
+    Education:
+      - institution: 清华大学
+        location: 中国北京
+        area: 统计学
+        studyType: 博士
+        start_date: 2022
+        highlights:
+          - 导师：林乾教授。
+      - institution: 宾夕法尼亚大学沃顿商学院
+        location: 美国宾夕法尼亚州费城
+        area: 统计与数据科学
+        studyType: 访问学生
+        start_date: 2025
+        end_date: 2025
+        highlights:
+          - 合作导师：Tony Cai 教授。
+      - institution: 清华大学
+        location: 中国北京
+        area: 数学与应用数学；辅修数据科学与技术
+        studyType: 理学学士
+        start_date: 2018
+        end_date: 2022
+        highlights:
+          - 北京市优秀毕业生（3/111）。
+
+    Honors and Awards:
+      - title: 国家奖学金
+        awarder: 清华大学
+        date: 2025
+      - title: 辉彦奖学金（一等奖学金）
+        awarder: 清华大学
+        date: 2024
+      - title: 优秀助教奖学金
+        awarder: 清华大学
+        date: 2023
+      - title: 北京市优秀毕业生
+        awarder: 清华大学
+        date: 2022
+      - title: 第十一届全国大学生数学竞赛一等奖
+        awarder: 中国工业与应用数学学会
+        date: 2019
+      - title: 国家奖学金
+        awarder: 中华人民共和国教育部
+        date: 2019
+
+    Academic Interests:
+      - name: 研究方向
+        keywords:
+          - 核方法
+          - 神经切线核理论
+          - 特征学习理论
+          - 统计机器学习
+          - 差分隐私
+
+    Skills:
+      - name: 编程
+        keywords:
+          - Python
+          - R
+          - C++
+          - Java
+          - Kotlin
+          - LaTeX
+      - name: 语言
+        keywords:
+          - 中文
+          - 英文
+
+    Publications:
+      - title: Optimal Rates of Kernel Ridge Regression under Source Condition in Large Dimensions
+        publisher: Journal of Machine Learning Research
+        date: 2025
+        url: http://jmlr.org/papers/v26/23-1679.html
+      - title: On the Impacts of the Random Initialization in the Neural Tangent Kernel Theory
+        publisher: NeurIPS 2024
+        date: 2024
+        url: https://openreview.net/forum?id=ni3Ud2BV3G
+      - title: Kernel Interpolation Generalizes Poorly
+        publisher: Biometrika
+        date: 2024
+        url: https://academic.oup.com/biomet/article-abstract/111/2/715/7238206
+      - title: Improving Adaptivity via Over-Parameterization in Sequence Models
+        publisher: NeurIPS 2024
+        date: 2024
+        url: https://openreview.net/forum?id=UfLH4T676K

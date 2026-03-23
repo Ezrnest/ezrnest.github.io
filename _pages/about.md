@@ -4,9 +4,11 @@ title: 简介
 permalink: /
 lang: zh
 home: true
+nav_key: home
 alternate_permalink: /en/
 alternate_lang_label: EN
 subtitle: 统计与机器学习理论
+description: 李易诚的学术主页，研究方向包括统计学与机器学习理论、核方法、特征学习与差分隐私。
 
 profile:
   align: right
@@ -18,7 +20,13 @@ profile:
     <p><a href="mailto:liyc22@mails.tsinghua.edu.cn">liyc22@mails.tsinghua.edu.cn</a></p>
     <p><a href="https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: true
+selected_papers_keys:
+  - cai2026_MinimaxAdaptiveCovariance
+  - li2025_SeveralSupporting
+  - li2024_GeneralizationError
+  - li2025_DiagonalOverparameterization
+  - li2023_SaturationEffect
 social: true # includes social icons at the bottom of the page
 
 announcements:

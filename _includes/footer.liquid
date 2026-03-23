@@ -1,13 +1,16 @@
+{% assign current_lang = page.lang | default: site.lang %}
+{% assign t = site.data.i18n[current_lang] %}
+{% assign date_format = t.date_format | default: '%b %d, %Y' %}
 {% capture footer_contents %}
   &copy; Copyright {{ site.time | date: '%Y' }}
   {{ site.first_name }}
   {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
+  {{ site.last_name }}. {{ t.footer_text | default: site.footer_text }}
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
   {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+    {{ t.last_updated | default: 'Last updated:' }} {{ 'now' | date: date_format }}.
   {% endif %}
 {% endcapture %}
 

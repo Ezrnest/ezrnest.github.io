@@ -1,3 +1,7 @@
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  {% if page.selected_papers_keys and page.selected_papers_keys.size > 0 %}
+    {% selected_bibliography %}
+  {% else %}
+    {% bibliography --group_by none --query @*[selected=true]* %}
+  {% endif %}
 </div>

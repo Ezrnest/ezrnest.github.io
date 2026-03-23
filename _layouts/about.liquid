@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+{% assign current_lang = page.lang | default: site.lang %}
+{% assign t = site.data.i18n[current_lang] %}
+{% assign publications_url = '/publications/' %}
+{% for site_page in site.pages %}
+  {% if site_page.nav_key == 'publications' and site_page.lang == current_lang %}
+    {% assign publications_url = site_page.permalink | default: site_page.url %}
+  {% endif %}
+{% endfor %}
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
@@ -43,7 +51,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ t.home.news | default: 'News' }}</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -51,7 +59,7 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">{{ t.home.latest_posts | default: 'Latest posts' }}</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -59,7 +67,9 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ publications_url | relative_url }}" style="color: inherit">
+          {{ t.home.selected_publications | default: 'Selected publications' }}
+        </a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -69,7 +79,7 @@ layout: default
       <div class="social">
         <div class="contact-icons">{% social_links %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+        <div class="contact-note">{{ t.contact_note | default: site.contact_note }}</div>
       </div>
     {% endif %}
 
