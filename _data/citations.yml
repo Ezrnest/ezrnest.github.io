@@ -1,3 +1,67 @@
 metadata:
-  last_updated: "2026-03-23"
-papers: {}
+  last_updated: '2026-03-25'
+papers:
+  UdZsI8QAAAAJ:9yKSN-GCB0IC:
+    citations: 29
+    title: On the optimality of misspecified spectral algorithms
+    year: '2024'
+  UdZsI8QAAAAJ:IjCSPb-OGe4C:
+    citations: 36
+    title: On the eigenvalue decay rates of a class of neural-network related kernel functions defined on general domains
+    year: '2023'
+  UdZsI8QAAAAJ:LkGwnXOMwfcC:
+    citations: 0
+    title: Several Supporting Evidences for the Adaptive Feature Program
+    year: '2025'
+  UdZsI8QAAAAJ:Tyk-4Ss8FVUC:
+    citations: 12
+    title: Optimal rates of kernel ridge regression under source condition in large dimensions
+    year: '2025'
+  UdZsI8QAAAAJ:UeHWp8X0CEIC:
+    citations: 31
+    title: On the asymptotic learning curves of kernel ridge regression under power-law decay
+    year: '2024'
+  UdZsI8QAAAAJ:W7OEmFMy1HYC:
+    citations: 37
+    title: On the optimality of misspecified kernel ridge regression
+    year: '2023'
+  UdZsI8QAAAAJ:WF5omc3nYNoC:
+    citations: 4
+    title: On the saturation effects of spectral algorithms in large dimensions
+    year: '2024'
+  UdZsI8QAAAAJ:Y0pCki6q_DkC:
+    citations: 16
+    title: Optimal rate of kernel regression in large dimensions
+    year: '2023'
+  UdZsI8QAAAAJ:YsMSGLbcyi4C:
+    citations: 4
+    title: Improving adaptivity via over-parameterization in sequence models
+    year: '2024'
+  UdZsI8QAAAAJ:_FxGoFyzp5QC:
+    citations: 0
+    title: Alignment-Sensitive Minimax Rates for Spectral Algorithms with Learned Kernels
+    year: '2025'
+  UdZsI8QAAAAJ:d1gkVwhDpl0C:
+    citations: 23
+    title: Kernel interpolation generalizes poorly
+    year: '2024'
+  UdZsI8QAAAAJ:eQOLeE2rZwMC:
+    citations: 5
+    title: On the impacts of the random initialization in the neural tangent kernel theory
+    year: '2024'
+  UdZsI8QAAAAJ:roLk4NBRz8UC:
+    citations: 5
+    title: 'Diagonal over-parameterization in reproducing kernel hilbert spaces as an adaptive feature model: Generalization and adaptivity'
+    year: '2025'
+  UdZsI8QAAAAJ:u-x6o8ySG0sC:
+    citations: 36
+    title: On the saturation effect of kernel ridge regression
+    year: '2024'
+  UdZsI8QAAAAJ:ufrVoPGSRksC:
+    citations: 2
+    title: 'Towards a statistical understanding of neural networks: Beyond the neural tangent kernel theories'
+    year: '2024'
+  UdZsI8QAAAAJ:zYLM7Y9cAGgC:
+    citations: 13
+    title: Generalization error curves for analytic spectral algorithms under power-law decay
+    year: '2024'
