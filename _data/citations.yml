@@ -1,18 +1,22 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-29'
 papers:
   UdZsI8QAAAAJ:9yKSN-GCB0IC:
     citations: 29
     title: On the optimality of misspecified spectral algorithms
     year: '2024'
   UdZsI8QAAAAJ:IjCSPb-OGe4C:
-    citations: 37
+    citations: 38
     title: On the eigenvalue decay rates of a class of neural-network related kernel functions defined on general domains
     year: '2023'
   UdZsI8QAAAAJ:LkGwnXOMwfcC:
     citations: 0
     title: Several Supporting Evidences for the Adaptive Feature Program
     year: '2025'
+  UdZsI8QAAAAJ:Se3iqnhoufwC:
+    citations: 0
+    title: Minimax and Adaptive Covariance Matrix Estimation under Differential Privacy
+    year: '2026'
   UdZsI8QAAAAJ:Tyk-4Ss8FVUC:
     citations: 12
     title: Optimal rates of kernel ridge regression under source condition in large dimensions
@@ -22,7 +26,7 @@ papers:
     title: On the asymptotic learning curves of kernel ridge regression under power-law decay
     year: '2024'
   UdZsI8QAAAAJ:W7OEmFMy1HYC:
-    citations: 37
+    citations: 39
     title: On the optimality of misspecified kernel ridge regression
     year: '2023'
   UdZsI8QAAAAJ:WF5omc3nYNoC:
