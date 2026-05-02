@@ -19,6 +19,7 @@ profile:
     <p>李易诚 | Yicheng Li</p>
     <p>清华大学统计与数据科学系博士生</p>
     <p><a href="mailto:liyc22@mails.tsinghua.edu.cn">liyc22@mails.tsinghua.edu.cn</a></p>
+    <p><a href="mailto:li_yicheng@foxmail.com">li_yicheng@foxmail.com</a></p>
     <p><a href="https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
 
 selected_papers: true
@@ -50,7 +51,7 @@ latest_posts:
 
 我主要的研究方向为深度学习理论，尤其关注特征学习、神经切线核理论、核方法，我也在近期研究差分隐私算法的统计保证。
 
-如果您对于我的研究感兴趣，欢迎通过[邮箱](mailto:liyc22@mails.tsinghua.edu.cn)与我联系，也可以访问我的[Google Scholar 页面](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en)。
+如果您对于我的研究感兴趣，欢迎通过[邮箱](mailto:liyc22@mails.tsinghua.edu.cn)或 [li_yicheng@foxmail.com](mailto:li_yicheng@foxmail.com) 与我联系，也可以访问我的[Google Scholar 页面](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en)。
 
 ## 教育背景
 

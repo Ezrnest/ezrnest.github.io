@@ -19,6 +19,7 @@ profile:
     <p>李易诚 | Yicheng Li</p>
     <p>Ph.D. Student, Department of Statistics and Data Science, Tsinghua University</p>
     <p><a href="mailto:liyc22@mails.tsinghua.edu.cn">liyc22@mails.tsinghua.edu.cn</a></p>
+    <p><a href="mailto:li_yicheng@foxmail.com">li_yicheng@foxmail.com</a></p>
     <p><a href="https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
 
 selected_papers: true
@@ -51,7 +52,7 @@ I will graduate in the summer of 2026 and join the School of Statistics at East 
 
 My main research area is deep learning theory, with a particular focus on feature learning, neural tangent kernel theory, and kernel methods. More recently, I have also been working on statistical guarantees for differentially private algorithms.
 
-If you are interested in my research, feel free to contact me by [email](mailto:liyc22@mails.tsinghua.edu.cn), or visit my [Google Scholar page](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en).
+If you are interested in my research, feel free to contact me by [email](mailto:liyc22@mails.tsinghua.edu.cn) or [li_yicheng@foxmail.com](mailto:li_yicheng@foxmail.com), or visit my [Google Scholar page](https://scholar.google.com/citations?user=UdZsI8QAAAAJ&hl=en).
 
 ## Education
 
