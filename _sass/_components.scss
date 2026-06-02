@@ -78,6 +78,20 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+@media (max-width: 575.98px) {
+  .profile {
+    float: none !important;
+    margin-left: 0;
+    margin-right: 0;
+
+    img {
+      display: block;
+      width: min(72vw, 260px);
+      margin: 0 auto 0.75rem auto;
+    }
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;

@@ -11,7 +11,7 @@ alternate_lang_label: EN
 cv_pdf: /assets/pdf/CV_Yicheng.pdf
 cv_data: cv_zh
 cv_format: rendercv # options: rendercv, jsonresume
-description: 教育背景、荣誉奖励与代表性论文的简要学术简历。
+description: 任职、教育背景、荣誉奖励与代表性论文的简要学术简历。
 toc:
   sidebar: left
 ---

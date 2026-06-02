@@ -8,15 +8,15 @@ first_name: Yicheng
 middle_name:
 last_name: Li
 contact_note: >
-  Department of Statistics and Data Science, Tsinghua University. The best way to reach me is by email: liyc22@mails.tsinghua.edu.cn or li_yicheng@foxmail.com.
+  School of Statistics, East China Normal University. Email: ycli@sfs.ecnu.edu.cn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Academic homepage of Yicheng Li.
+  Academic homepage of Yicheng Li, Zijiang Young Scholar (Top Young Talent) at East China Normal University.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Yicheng Li, Li Yicheng, statistics, machine learning theory, kernel methods
+keywords: Yicheng Li, Li Yicheng, East China Normal University, Zijiang Young Scholar, statistics, machine learning theory, kernel methods
 lang: zh # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://ezrnest.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

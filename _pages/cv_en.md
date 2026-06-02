@@ -2,7 +2,7 @@
 layout: cv
 permalink: /en/cv/
 title: CV
-description: A concise academic CV with education, awards, and selected publications.
+description: A concise academic CV with appointments, education, awards, and selected publications.
 lang: en
 nav: true
 nav_order: 3

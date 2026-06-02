@@ -211,7 +211,13 @@
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
-      {% if entry.doi %}
+      {% assign entry_archiveprefix_downcase = entry.archiveprefix | default: '' | downcase %}
+      {% assign entry_publisher_downcase = entry.publisher | default: '' | downcase %}
+      {% assign is_arxiv_preprint = false %}
+      {% if entry_archiveprefix_downcase == 'arxiv' or entry_publisher_downcase == 'arxiv' %}
+        {% assign is_arxiv_preprint = true %}
+      {% endif %}
+      {% if entry.doi and is_arxiv_preprint == false %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
       {% if entry.arxiv %}
@@ -273,10 +279,19 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
       {% if entry.url and entry.url != entry.html and entry.url != entry.website %}
+        {% assign url_button_label = 'URL' %}
+        {% assign entry_url_downcase = entry.url | downcase %}
+        {% if entry_url_downcase contains '.pdf' %}
+          {% assign url_button_label = 'PDF' %}
+        {% elsif entry_url_downcase contains 'arxiv.org' %}
+          {% assign url_button_label = 'arXiv' %}
+        {% elsif entry_url_downcase contains 'openreview.net' %}
+          {% assign url_button_label = 'OpenReview' %}
+        {% endif %}
         {% if entry.url contains '://' %}
-          <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
+          <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">{{ url_button_label }}</a>
         {% else %}
-          <a href="{{ entry.url | relative_url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
+          <a href="{{ entry.url | relative_url }}" class="btn btn-sm z-depth-0" role="button">{{ url_button_label }}</a>
         {% endif %}
       {% endif %}
     </div>

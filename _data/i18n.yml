@@ -14,7 +14,7 @@ zh:
   last_updated: 最近更新：
   no_news: 暂无消息。
   no_posts: 暂无文章。
-  contact_note: liyc22@mails.tsinghua.edu.cn / li_yicheng@foxmail.com
+  contact_note: ycli@sfs.ecnu.edu.cn
   nav:
     home: 简介
     publications: 论文
@@ -33,7 +33,7 @@ zh:
     location: 地点
     website: 主页
     professional_summary: 简介
-    experience: 经历
+    experience: 任职经历
     no_data: 暂无简历数据。请配置 RenderCV (cv.yml) 或 JSONResume (resume.json) 数据。
     present: 至今
     publications_link_text: 完整论文列表请见
@@ -68,7 +68,7 @@ en:
   last_updated: "Last updated:"
   no_news: No news so far...
   no_posts: No posts so far...
-  contact_note: liyc22@mails.tsinghua.edu.cn / li_yicheng@foxmail.com
+  contact_note: ycli@sfs.ecnu.edu.cn
   nav:
     home: About
     publications: Publications
@@ -87,7 +87,7 @@ en:
     location: Location
     website: Website
     professional_summary: Professional Summary
-    experience: Experience
+    experience: Academic Appointments
     no_data: No CV data found. Please configure either RenderCV (cv.yml) or JSONResume (resume.json) data.
     present: Present
     publications_link_text: See the full publication list on the

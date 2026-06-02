@@ -1,23 +1,31 @@
 cv:
   name: Yicheng Li
-  label: Ph.D. Student in Statistics
-  email: liyc22@mails.tsinghua.edu.cn
+  label: Zijiang Young Scholar (Top Young Talent)
+  email: ycli@sfs.ecnu.edu.cn
   website: https://ezrnest.github.io
   address:
-    city: Beijing
+    city: Shanghai
     countryCode: CN
-  summary: Ph.D. student in the Department of Statistics and Data Science at Tsinghua University, working on deep learning theory, with a focus on feature learning, neural tangent kernels, kernel methods, and differential privacy.
+  summary: I am a Zijiang Young Scholar (Top Young Talent) in the School of Statistics at East China Normal University. My research interests are deep learning theory and statistical learning theory, with a focus on feature learning, neural tangent kernels, kernel methods, and differential privacy.
 
   sections:
+    Experience:
+      - company: East China Normal University, School of Statistics
+        position: Zijiang Young Scholar (Top Young Talent)
+        location: Shanghai, China
+        start_date: 2026.7
+        end_date: Present
+
     Education:
       - institution: Tsinghua University, Department of Statistics and Data Science
         location: Beijing, China
         area: Statistics
         studyType: Ph.D.
         start_date: 2022
-        end_date: Present
+        end_date: 2026.6
         highlights:
           - "Advisor: Qian Lin"
+          - "Thesis (Tsinghua University Outstanding Doctoral Dissertation): [Understanding the Generalization of Neural Networks: From Neural Tangent Kernel Regression to Adaptive Feature Models](/assets/pdf/Thesis_LiYicheng.pdf)"
       - institution: University of Pennsylvania, The Wharton School, Department of Statistics
         location: Philadelphia, PA, USA
         studyType: Visiting Student
@@ -32,9 +40,19 @@ cv:
         start_date: 2018
         end_date: 2022
         highlights:
-          - Outstanding Graduate (top 3/111).
+          - Tsinghua University Outstanding Graduate.
 
     Honors and Awards:
+      - title: Tsinghua University Outstanding Doctoral Dissertation
+        awarder: Tsinghua University
+        date: 2026
+      - title: Tsinghua University Outstanding Graduate (Ph.D.)
+        awarder: Tsinghua University
+        date: 2026
+      - title: Zhong Jiaqing Outstanding Paper Award
+        awarder: The 27th Beijing-Tianjin-Hebei Young Researchers Symposium on Probability and Statistics, Probability and Statistics Branch of the Chinese Mathematical Society
+        date: 2026
+        summary: "Awarded for *Minimax and Adaptive Covariance Matrix Estimation under Differential Privacy*."
       - title: National Scholarship
         awarder: Ministry of Education of China
         date: 2025
@@ -53,12 +71,9 @@ cv:
       - title: Excellent Teaching Assistant Scholarship
         awarder: Tsinghua University
         date: 2023
-      - title: Outstanding Graduate
+      - title: Tsinghua University Outstanding Graduate
         awarder: Tsinghua University
         date: 2022
-      - title: Tsinghua University Scholarship
-        awarder: Tsinghua University
-        date: 2021
       - title: Tsinghua Alumni-Tang Junyuan Scholarship
         awarder: Tsinghua University
         date: 2021
