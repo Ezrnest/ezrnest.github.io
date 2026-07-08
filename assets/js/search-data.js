@@ -25,14 +25,14 @@ ninja.data = [{
           },
         },{id: "nav-简历",
           title: "简历",
-          description: "教育背景、荣誉奖励与代表性论文的简要学术简历。",
+          description: "任职、教育背景、荣誉奖励与代表性论文的简要学术简历。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "A concise academic CV with education, awards, and selected publications.",
+          description: "A concise academic CV with appointments, education, awards, and selected publications.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/en/cv/";
@@ -56,7 +56,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6C%69%79%63%32%32@%6D%61%69%6C%73.%74%73%69%6E%67%68%75%61.%65%64%75.%63%6E", "_blank");
+          window.open("mailto:%79%63%6C%69@%73%66%73.%65%63%6E%75.%65%64%75.%63%6E", "_blank");
         },
       },{
         id: 'social-rss',
@@ -71,6 +71,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=UdZsI8QAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-9497-0379", "_blank");
         },
       },{
         id: 'social-github',
