@@ -1,12 +1,20 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-08-03'
 papers:
+  UdZsI8QAAAAJ:0EnyYjriUFMC:
+    citations: 0
+    title: A Van Trees Lower Bound for Fully Interactive Differentially Private Federated Learning
+    year: '2026'
+  UdZsI8QAAAAJ:5nxA0vEk-isC:
+    citations: 0
+    title: 'The Cost of Discretization in Functional Linear Regression: Minimax Rates and Adaptation'
+    year: '2026'
   UdZsI8QAAAAJ:9yKSN-GCB0IC:
-    citations: 32
+    citations: 33
     title: On the optimality of misspecified spectral algorithms
     year: '2024'
   UdZsI8QAAAAJ:IjCSPb-OGe4C:
-    citations: 43
+    citations: 48
     title: On the eigenvalue decay rates of a class of neural-network related kernel functions defined on general domains
     year: '2023'
   UdZsI8QAAAAJ:LkGwnXOMwfcC:
@@ -22,7 +30,7 @@ papers:
     title: Optimal rates of kernel ridge regression under source condition in large dimensions
     year: '2025'
   UdZsI8QAAAAJ:UeHWp8X0CEIC:
-    citations: 33
+    citations: 32
     title: On the asymptotic learning curves of kernel ridge regression under power-law decay
     year: '2024'
   UdZsI8QAAAAJ:UebtZRa9Y70C:
@@ -30,15 +38,15 @@ papers:
     title: 'Large Dimensional Kernel Ridge Regression: Extending to Product Kernels'
     year: '2026'
   UdZsI8QAAAAJ:W7OEmFMy1HYC:
-    citations: 42
+    citations: 43
     title: On the optimality of misspecified kernel ridge regression
     year: '2023'
   UdZsI8QAAAAJ:WF5omc3nYNoC:
-    citations: 5
+    citations: 6
     title: On the saturation effects of spectral algorithms in large dimensions
     year: '2024'
   UdZsI8QAAAAJ:Y0pCki6q_DkC:
-    citations: 17
+    citations: 16
     title: Optimal rate of kernel regression in large dimensions
     year: '2023'
   UdZsI8QAAAAJ:YsMSGLbcyi4C:
@@ -62,11 +70,11 @@ papers:
     title: Functional Virtual Adversarial Training for Semi-Supervised Time Series Classification
     year: '2026'
   UdZsI8QAAAAJ:roLk4NBRz8UC:
-    citations: 6
-    title: 'Diagonal over-parameterization in reproducing kernel hilbert spaces as an adaptive feature model: Generalization and adaptivity'
+    citations: 7
+    title: 'Diagonal over-parameterization in Reproducing Kernel Hilbert Spaces as an adaptive feature model: Generalization and adaptivity'
     year: '2025'
   UdZsI8QAAAAJ:u-x6o8ySG0sC:
-    citations: 39
+    citations: 40
     title: On the saturation effect of kernel ridge regression
     year: '2024'
   UdZsI8QAAAAJ:ufrVoPGSRksC:
@@ -74,6 +82,6 @@ papers:
     title: 'Towards a statistical understanding of neural networks: Beyond the neural tangent kernel theories'
     year: '2024'
   UdZsI8QAAAAJ:zYLM7Y9cAGgC:
-    citations: 16
+    citations: 15
     title: Generalization error curves for analytic spectral algorithms under power-law decay
     year: '2024'
