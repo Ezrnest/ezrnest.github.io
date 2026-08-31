@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-21'
+  last_updated: '2026-08-31'
 papers:
   UdZsI8QAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,11 +10,11 @@ papers:
     title: 'The Cost of Discretization in Functional Linear Regression: Minimax Rates and Adaptation'
     year: '2026'
   UdZsI8QAAAAJ:9yKSN-GCB0IC:
-    citations: 34
+    citations: 35
     title: On the optimality of misspecified spectral algorithms
     year: '2024'
   UdZsI8QAAAAJ:IjCSPb-OGe4C:
-    citations: 48
+    citations: 49
     title: On the eigenvalue decay rates of a class of neural-network related kernel functions defined on general domains
     year: '2023'
   UdZsI8QAAAAJ:LkGwnXOMwfcC:
@@ -74,7 +74,7 @@ papers:
     title: 'Diagonal over-parameterization in Reproducing Kernel Hilbert Spaces as an adaptive feature model: Generalization and adaptivity'
     year: '2025'
   UdZsI8QAAAAJ:u-x6o8ySG0sC:
-    citations: 40
+    citations: 42
     title: On the saturation effect of kernel ridge regression
     year: '2024'
   UdZsI8QAAAAJ:ufrVoPGSRksC:
@@ -84,4 +84,4 @@ papers:
   UdZsI8QAAAAJ:zYLM7Y9cAGgC:
     citations: 15
     title: Generalization error curves for analytic spectral algorithms under power-law decay
-    year: '2024'
+    year: '2026'
