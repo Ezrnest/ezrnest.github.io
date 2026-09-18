@@ -3,6 +3,7 @@ layout: default
 ---
 {% assign current_lang = page.lang | default: site.lang %}
 {% assign t = site.data.i18n[current_lang] %}
+{% assign date_format = t.date_format | default: '%b %d, %Y' %}
 {% assign localized_site_title = site.title %}
 {% if current_lang == 'en' and site.title_en %}
   {% assign localized_site_title = site.title_en %}
@@ -105,6 +106,13 @@ layout: default
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
+    {% endif %}
+
+    {% if page.home and site.data.homepage_last_updated %}
+      <p class="text-muted small mt-4 mb-0">
+        {{ t.homepage_last_updated | default: 'Homepage last updated:' }}
+        {{ site.data.homepage_last_updated | date: date_format }}
+      </p>
     {% endif %}
   </article>
 </div>

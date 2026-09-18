@@ -12,6 +12,7 @@ zh:
     <a href="https://github.com/alshedivat/al-folio">al-folio</a> 驱动，
     托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>。
   last_updated: 最近更新：
+  homepage_last_updated: 最后更新于：
   no_news: 暂无消息。
   no_posts: 暂无文章。
   contact_note: ycli@sfs.ecnu.edu.cn
@@ -66,6 +67,7 @@ en:
     <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Hosted by
     <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   last_updated: "Last updated:"
+  homepage_last_updated: "Homepage last updated:"
   no_news: No news so far...
   no_posts: No posts so far...
   contact_note: ycli@sfs.ecnu.edu.cn
